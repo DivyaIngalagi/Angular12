@@ -1,0 +1,8 @@
+<p>number-list-component works!</p>
+<div *ngFor="let n of nums"> 
+    <app-number-component [num]="n"></app-number-component> 
+    </div> 
+
+    <button (click)="SelectAll()">Select All</button>&nbsp;&nbsp;
+    <button (click)="SelectAllOddNumbers()">Select all odd numbers</button>
+   
